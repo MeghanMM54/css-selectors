@@ -69,10 +69,16 @@ add border-radius: 50%; */
 /* Select the link with rel="external" attribute
 add color: purple; */
 
-
+header div p a {
+    color: purple;
+}
 
 /* Select the first section (using first of type) within the section using ID experience
 add border-bottom: 2px dashed #ccc; */
+
+section:first-of-type {
+    border-bottom: 2px dashed #ccc;
+}
 
 /* Use the child selector to target the section tag immediately inside the main
 add margin-bottom: 3rem; */
