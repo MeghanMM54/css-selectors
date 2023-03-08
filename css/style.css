@@ -37,19 +37,39 @@ h1 + p, h3 + p {
 /* Use descendant selector to select the div inside header
 add margin: 1em 0; */
 
+header div {
+    margin: 1em 0;
+}
+
 /* Select all h2 tags
 add text-transform: uppercase;
 add border-bottom: 2px solid #000; */
 
+h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+}
+
 /* Use the child selector to target the p tag immediately inside the header
 add font-size: 1.25rem; */
+
+header > p {
+    font-size: 1.25rem;
+}
 
 /* Select the class profile-pic
 add width: 150px;
 add border-radius: 50%; */
 
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+
 /* Select the link with rel="external" attribute
 add color: purple; */
+
+
 
 /* Select the first section (using first of type) within the section using ID experience
 add border-bottom: 2px dashed #ccc; */
