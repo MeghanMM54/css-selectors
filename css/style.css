@@ -6,3 +6,47 @@ body {
     background-color: #f2f2f2;
     padding: 0.2em;
 }
+
+/* Select h1, h2 and h3
+add font-family: sans-serif;
+add margin-bottom: 0; */
+
+/* Select all p tags
+add margin: .5em 0; */
+
+/* Use an adjacent selector to get the p tags immediately beside the h1 and h3tags
+add color: purple;
+add font-family: sans-serif;
+add font-weight: bold; */
+
+/* Use descendant selector to select the div inside header
+add margin: 1em 0; */
+
+/* Select all h2 tags
+add text-transform: uppercase;
+add border-bottom: 2px solid #000; */
+
+/* Use the child selector to target the p tag immediately inside the header
+add font-size: 1.25rem; */
+
+/* Select the class profile-pic
+add width: 150px;
+add border-radius: 50%; */
+
+/* Select the link with rel="external" attribute
+add color: purple; */
+
+/* Select the first section (using first of type) within the section using ID experience
+add border-bottom: 2px dashed #ccc; */
+
+/* Use the child selector to target the section tag immediately inside the main
+add margin-bottom: 3rem; */
+
+/* Select the strong tag inside the p tag directly after the h2 in the section directly inside the main
+add color: purple; */
+
+/* Select every even li
+add color: purple; */
+
+/* Select the last div inside the dl
+add background-color: #ccc; */
