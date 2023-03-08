@@ -11,13 +11,28 @@ body {
 add font-family: sans-serif;
 add margin-bottom: 0; */
 
+h1, h2, h3 {
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
 /* Select all p tags
 add margin: .5em 0; */
+
+p {
+    margin: .5em 0;
+}
 
 /* Use an adjacent selector to get the p tags immediately beside the h1 and h3tags
 add color: purple;
 add font-family: sans-serif;
 add font-weight: bold; */
+
+h1 + p, h3 + p {
+    color: purple;
+    font-family: sans-serif;
+    font-weight: bold;
+}
 
 /* Use descendant selector to select the div inside header
 add margin: 1em 0; */
